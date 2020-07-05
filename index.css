@@ -1,6 +1,6 @@
 @font-face {
     font-family: retro;
-    src: url(/fonts/bazarmedium.woff)
+    src: url(/topnotch/fonts/bazarmedium.woff)
 }
 
 #parallelogram {
@@ -26,7 +26,7 @@
 }
 
 .grain {
-    background-image: url(/img/grain.png);
+    background-image: url(/topnotch/img/grain.png);
 }
 
 .black {
