@@ -3,17 +3,47 @@
     src: url(/topnotch/fonts/bazarmedium.woff)
 }
 
+@font-face {
+    font-family: ret;
+    src: url(/topnotch/fonts/KoolBeans-eerm.ttf)
+}
+
+.grain {
+    background-image: url(/topnotch/img/grain.png);
+}
+
+.title {
+    font-size: 100px;
+    color: black;
+    text-shadow: 2px 3px bisque, 4px 5px black
+}
+
+.sub-title {
+    font-size: 60px;
+    color: black;
+    text-shadow: 1px 2px bisque, 3px 4px black
+}
+
+#landing {
+    background-image: url(/topnotch/img/background-small.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
 #parallelogram {
-    border-bottom: 100px solid #CC0000;
+    border-bottom: 75px solid #CC0000;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    width: 90%;
+    width: 60%;
     margin: auto;
     filter: drop-shadow(0 0 20px #222);
 }
 
 #rectangle {
-    width: 95%;
+    width: 65%;
     margin: auto;
     height: 40px;
     background-color: #CC0000;
@@ -23,10 +53,6 @@
 
 #logo {
     filter: drop-shadow(0 0 20px #222);
-}
-
-.grain {
-    background-image: url(/topnotch/img/grain.png);
 }
 
 .black {
@@ -101,7 +127,7 @@
 }
 
 .carousel {
-    background-image: url(/img/grain.png);
+    background-image: url(/topnotch/img/grain.png);
     background-color: #262626;
     padding: 20px;
     border-radius: 0.5rem;
