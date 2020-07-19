@@ -1,0 +1,175 @@
+@font-face{
+    font-family: title;
+    src: url(/fonts/ReklameScript-Regular_DEMO.otf)
+}
+
+@font-face{
+    font-family: sub-title;
+    src: url(/fonts/Chunkfive.otf)
+}
+
+@font-face{
+    font-family: regular;
+    src: url(/fonts/Poppins-ExtraLight.ttf)
+}
+
+p{
+    font-family: regular
+}
+
+.grain {
+    background-image: url(/img/grain.png);
+}
+
+.black {
+    background-color: #262626
+}
+
+.blue {
+    background-color: #005AB1;
+}
+
+.cyan {
+    background-color: #88A5A5
+}
+
+.red {
+    background-color: #CC0000
+}
+
+.cream {
+    background-color: bisque;
+}
+
+.yellow {
+    background-color: #FF9414;
+}
+
+.purple {
+    background-color: #9F248E
+}
+
+.dashed-line {
+    border-top: 1px dashed rgba(0, 0, 0, 0.25);
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.25);
+    bottom: 10px;
+    z-index: 10;
+    width: 100%;
+    height: 0;
+    margin: 0px
+}
+
+.spacer {
+    margin: 0px;
+    height: 16px;
+    border: none;
+}
+
+.paper{
+    background-image: url(/img/torn-paper-noise.png);
+    background-repeat: round;
+    height: fit-content;
+    padding:70px;
+    filter: drop-shadow(0 0 20px #000);
+}
+
+
+.section-title, .section-title-reversed {
+    font-family: title;
+    color: bisque;
+    font-size: 70px;
+    text-shadow: 5px 5px black;
+}
+
+.section-title-reversed {
+    color: black;
+    text-shadow: 1px 2px bisque, 3px 4px black
+}
+
+#parallelogram {
+    padding-top:4px;
+    border-bottom: 80px solid #CC0000;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    width: 65%;
+    margin: auto;
+    filter: drop-shadow(0 0 20px #222);
+}
+
+#rectangle {
+    width: 70%;
+    margin: auto;
+    height: 45px;
+    background-color: #CC0000;
+    border-radius: 0.5rem;
+    filter: drop-shadow(0 0 20px #222);
+}
+
+.navbar{
+    width: 63%
+}
+
+.nav-item, .nav-link, .navbar-nav {
+    font-family: title;
+    color: seashell !important;
+    font-size: 40px;
+    text-shadow: 2px 3px black;
+    white-space: nowrap
+}
+
+
+@media all and (max-width: 1660px) {
+    #parallelogram{
+        width: 75%
+    }
+    #rectangle{
+        width: 80%
+    }
+    .navbar{
+        width:73%
+    }
+}
+
+@media all and (max-width: 1450px) {
+    #parallelogram{
+        width: 95%
+    }
+    #rectangle{
+        width: 100%
+    }
+    .navbar{
+        width:95%
+    }
+    .nav-item, .nav-link{
+        font-size: 30px
+    }
+}
+
+@media (min-width: 1500px){
+    .container{
+        max-width: 1400px
+    }
+}
+
+.tagline{
+    font-size: 30px;
+    font-family: sub-title;
+    color:white
+}
+
+
+
+.navbar-collapse{
+    background-color: #CC0000;
+}
+
+.active{
+    color: #005AB1!important
+}
+
+.dropdown-menu{
+    background-color: white;
+    text-shadow: none;
+    color: seashell !important;
+    font-size: 25px
+}
