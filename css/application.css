@@ -1,16 +1,16 @@
 @font-face{
     font-family: title;
-    src: url(fonts/ReklameScript-Regular_DEMO.otf)
+    src: url(/fonts/ReklameScript-Regular_DEMO.otf)
 }
 
 @font-face{
     font-family: sub-title;
-    src: url(fonts/Chunkfive.otf)
+    src: url(/fonts/Chunkfive.otf)
 }
 
 @font-face{
     font-family: regular;
-    src: url(fonts/Poppins-ExtraLight.ttf)
+    src: url(/fonts/Poppins-ExtraLight.ttf)
 }
 
 p{
