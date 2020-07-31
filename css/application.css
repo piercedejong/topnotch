@@ -1,16 +1,16 @@
 @font-face{
     font-family: title;
-    src: url(/fonts/ReklameScript-Regular_DEMO.otf)
+    src: url(/topnotch/fonts/ReklameScript-Regular_DEMO.otf)
 }
 
 @font-face{
     font-family: sub-title;
-    src: url(/fonts/Chunkfive.otf)
+    src: url(/topnotch/fonts/Chunkfive.otf)
 }
 
 @font-face{
     font-family: regular;
-    src: url(/fonts/MiloOT.otf)
+    src: url(/topnotch/fonts/MiloOT.otf)
 }
 
 .bg {
