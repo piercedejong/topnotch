@@ -1,24 +1,35 @@
 @font-face{
     font-family: title;
-    src: url(/topnotch/fonts/ReklameScript-Regular_DEMO.otf)
+    src: url(/fonts/ReklameScript-Regular_DEMO.otf)
 }
 
 @font-face{
     font-family: sub-title;
-    src: url(/topnotch/fonts/Chunkfive.otf)
+    src: url(/fonts/Chunkfive.otf)
 }
 
 @font-face{
     font-family: regular;
-    src: url(/topnotch/fonts/Poppins-ExtraLight.ttf)
+    src: url(/fonts/MiloOT.otf)
 }
+
+.bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index:-2;
+  height:100%;
+  width:100%;
+  position:fixed;
+}
+
 
 p{
     font-family: regular
 }
 
 .grain {
-    background-image: url(img/grain.png);
+    background-image: url(/img/grain.png);
 }
 
 .black {
@@ -42,11 +53,15 @@ p{
 }
 
 .yellow {
-    background-color: #FF9414;
+    background-color: #EFE7B7;
 }
 
 .purple {
     background-color: #9F248E
+}
+
+.white {
+    background-color: #e6e6e6
 }
 
 .dashed-line {
@@ -100,55 +115,9 @@ p{
     width: 70%;
     margin: auto;
     height: 45px;
-    background-color: #CC0000;
+    background-color: #1368DC;
     border-radius: 0.5rem;
     filter: drop-shadow(0 0 20px #222);
-}
-
-.navbar{
-    width: 63%
-}
-
-.nav-item, .nav-link, .navbar-nav {
-    font-family: title;
-    color: seashell !important;
-    font-size: 40px;
-    text-shadow: 2px 3px black;
-    white-space: nowrap
-}
-
-
-@media all and (max-width: 1660px) {
-    #parallelogram{
-        width: 75%
-    }
-    #rectangle{
-        width: 80%
-    }
-    .navbar{
-        width:73%
-    }
-}
-
-@media all and (max-width: 1450px) {
-    #parallelogram{
-        width: 95%
-    }
-    #rectangle{
-        width: 100%
-    }
-    .navbar{
-        width:95%
-    }
-    .nav-item, .nav-link{
-        font-size: 30px
-    }
-}
-
-@media (min-width: 1500px){
-    .container{
-        max-width: 1400px
-    }
 }
 
 .tagline{
@@ -157,19 +126,6 @@ p{
     color:white
 }
 
-
-
-.navbar-collapse{
-    background-color: #CC0000;
-}
-
 .active{
     color: #005AB1!important
-}
-
-.dropdown-menu{
-    background-color: white;
-    text-shadow: none;
-    color: seashell !important;
-    font-size: 25px
 }

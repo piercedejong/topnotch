@@ -1,47 +1,64 @@
-#logo{
-    height: 500px
+#logo {
+    background-repeat: no-repeat;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    margin-top: 200px;
+    margin-left: 30px;
 }
 
-
-.rectangle{
-    width:100%;
-    height:10px;
-    background-color: #cc0000;
+#sign{
+    margin-top: 175px
 }
 
-.nav-option{
-    padding-top: 20px;
-    border-right: 5px solid #cc0000;
-    border-left: 5px solid transparent;
+.stick {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 450px;
+    background-repeat: no-repeat;
+    margin-left:30px;
+    margin-bottom: -250px;
+    z-index: 99;
 }
 
-.nav-tag{
-    color: #cc0000;
+.rectangle {
+    width: 100%;
+    height: 10px;
+    background-color: #EE1D23;
+}
+
+.nav-item, .nav-link, .navbar-light, .map {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
     font-family: sub-title;
-    font-size: 15px;
-    text-align: center;
-    padding: 0px;
-    margin-bottom: 0px
+    color: #EE1D23 !important
 }
 
-.nav-item{
-    text-align:center;
-    width: 100%
+.nav-item:hover, .nav-link:hover {
+    color: black !important
 }
 
-.nav-item:hover{
-    color:#cc0000 !important
+#location{
+    font-size: 2rem;
+    font-family: sub-title;
+    color: #EE1D23
 }
-
-
-
-
-
-
-
-
-
-
+#dates{
+    font-family: title;
+    font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px black, 2px 2px black;
+}
+#time{
+    font-family: fantasy;
+    font-size: 2rem;
+    color: #EE1D23;
+}
 
 .title {
     font-family: title;
@@ -50,67 +67,41 @@
     text-shadow: 2px 3px black, 4px 5px black
 }
 
-.hook{
+.hook {
     color: white;
     font-size: 30px;
     font-family: sub-title;
-}
-
-.sub-title {
-    font-family: title;
-    font-size: 25px;
-    color: #cc0000;
-    text-shadow: 1px 1px black
-}
-
-#landing {
-    background-image: url(/img/grain.png);
-    width: 100%;
-}
-
-
-
-.social-media{
-    font-size: 25px;
-    color:black !important;
-    text-shadow: none
-}
-
-#home-image{
-    height: 70px;
-    width: auto;
-}
-
-.carousel{
+    text-shadow: 1px 1px black, 2px 2px black;
 }
 
 .carousel-item {
-    height: 60vh;
+    height: 55vh;
     overflow: hidden;
     background-position: center;
 }
 
-.img-small{
+.img-small {
     height: 150px;
     margin: 0px 10px
 }
 
-#order-now{
+#order-now {
     height: fit-content;
     margin: auto 10px;
-    background-color: #FF9414;
-    border-color: #FF9414;
+    background-color: #EE1D23;
+    border-color: #EE1D23;
     font-family: title;
     font-size: 3rem;
+    color: white;
+    text-shadow: 1px 1px black, 2px 2px black
 }
 
-#order-now:hover{
+#order-now:hover {
     height: fit-content;
     margin: auto 10px;
-    background-color: #e67e00;
-    border-color: #e67e00;
+    background-color: #cc0000;
+    border-color: #cc0000;
 }
-
 
 .map-container-2 {
     overflow: hidden;
@@ -124,71 +115,4 @@
     height: 100%;
     width: 100%;
     position: relative;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.banner {
-    font-family: title;
-    font-size: 30px;
-    position: relative;
-    display: block;
-    margin: 0px;
-    padding: 10px 20px;
-    height: 60px;
-    /* border: 1px solid black; */
-    text-align: center;
-    color: bisque;
-    background: #CC0000;
-    border-radius: 4px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, .15) inset, 0 6px 10px rgba(0, 0, 0, .15);
-}
-
-.banner-span {
-    border-top: dashed 1px rgba(0, 0, 0, 0.35);
-    border-bottom: dashed 1px rgba(0, 0, 0, 0.35);
-    padding-top: 8px;
-    padding-bottom: 10px;
-    width: 100%;
-}
-
-.banner::before,
-.banner::after {
-    content: '';
-    position: absolute;
-    z-index: -1;
-    left: -50px;
-    top: 24px;
-    display: block;
-    width: 70px;
-    height: 0px;
-    border: 30px solid #CC0000;
-    border-right: 20px solid darkred;
-    border-bottom-color: #CC0000;
-    border-left-color: transparent;
-    transform: rotate(-5deg);
-}
-
-.banner::after {
-    left: auto;
-    right: -50px;
-    border-left: 20px solid darkred;
-    border-right: 30px solid transparent;
-    transform: rotate(5deg);
 }
