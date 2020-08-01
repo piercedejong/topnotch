@@ -25,7 +25,9 @@
 
 
 p{
-    font-family: regular
+    font-family: regular;
+    font-size: 1.25rem;
+    color:black
 }
 
 .grain {
