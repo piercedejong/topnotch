@@ -1,33 +1,49 @@
-@font-face{
+@font-face {
     font-family: title;
     src: url(/topnotch/fonts/ReklameScript-Regular_DEMO.otf)
 }
 
-@font-face{
+@font-face {
     font-family: sub-title;
     src: url(/topnotch/fonts/Chunkfive.otf)
 }
 
-@font-face{
+@font-face {
     font-family: regular;
     src: url(/topnotch/fonts/MiloOT.otf)
 }
 
-.bg {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index:-2;
-  height:100%;
-  width:100%;
-  position:fixed;
+@font-face {
+    font-family: lemon;
+    src: url(/topnotch/fonts/LemonJellyPersonalUse-dEqR.ttf)
 }
 
+.bg {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -2;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
 
-p{
+p {
     font-family: regular;
     font-size: 1.25rem;
-    color:black
+    color: black
+}
+
+.img-fluid {
+    -webkit-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+}
+
+.no-box{
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 
 .grain {
@@ -82,14 +98,13 @@ p{
     border: none;
 }
 
-.paper{
+.paper {
     background-image: url(img/torn-paper-noise.png);
     background-repeat: round;
     height: fit-content;
-    padding:70px;
+    padding: 70px;
     filter: drop-shadow(0 0 20px #000);
 }
-
 
 .section-title, .section-title-reversed {
     font-family: title;
@@ -104,7 +119,7 @@ p{
 }
 
 #parallelogram {
-    padding-top:4px;
+    padding-top: 4px;
     border-bottom: 80px solid #CC0000;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
@@ -122,12 +137,12 @@ p{
     filter: drop-shadow(0 0 20px #222);
 }
 
-.tagline{
+.tagline {
     font-size: 30px;
     font-family: sub-title;
-    color:white
+    color: white
 }
 
-.active{
-    color: #005AB1!important
+.active {
+    color: #005AB1 !important
 }
