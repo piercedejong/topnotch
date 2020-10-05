@@ -35,7 +35,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto w-100 justify-content-center">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="/topnotch/menu.html">Menu <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/topnotch/order.html">Order Now</a>
@@ -70,51 +70,99 @@
                 <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:99" />
             </div>
         </div>
-        <div id="sign" style="background-image:url(img/logo.png)" class="stick"> </div>
-        <div class="container-fluid" style="margin-top:-850px">
+        <div id="container-sign" class="container-fluid sign-container">
             <div class="row">
                 <div class="col-3">
+                    <img id="sign" src="img/logo.png" class="stick"> </img>
                 </div>
-                <div class="col-3 text-right">
-                    <h1 id="location">7525 Burnet Road Austin, TX 78757</h1>
-                    <h3 id="dates" style="font-family:title">Open 7 Days a Week</h3>
-                    <h5 id="time">11:00 am to 9:00 pm</h5>
-
-                    <button id="order-now" class="btn btn-warning btn-lg mr-3 mt-1" style="font-size:1.75rem">Order Takeout</button>
+                <div class="col"></div>
+            </div>
+        </div>
+        <div class="container-fluid mt-5">
+            <div class="row">
+                <div class="col-3">
                 </div>
                 <div class="col-4">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.9925999670822!2d-97.73578308452306!3d30.35116021097195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbae8730f721%3A0x2e7009226065b229!2sTop%20Notch%20Hamburgers!5e0!3m2!1sen!2sus!4v1596159554472!5m2!1sen!2sus"
-                        width="400" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        height="400" frameborder="0" style="border:0;width:inherit" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        <div class="d-flex justify-content-between">
+                            <div>
+                                <h5 class="location">ADDRESS</h5>
+                                <h5 class="info">7525 Burnet Rd</h5>
+                                <h5 class="info">Austin, TX 78757</h5>
+                                <a class="info directions"  target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//Top+Notch+Hamburgers,+7525+Burnet+Rd,+Austin,+TX+78757/@30.351504,-97.7327011,16.75z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8644cbae8730f721:0x2e7009226065b229!2m2!1d-97.7335944!2d30.3511556!3e0?hl=en"> Get Directions</a>
+                            </div>
+                            <div>
+                                <h5 class="location">HOURS</h5>
+                                <h5 class="info">Temporary Hours</h5>
+                                <h5 class="info">11:00 am to 9:00 pm</h5>
+                            </div>
+                            <div>
+                                <h5 class="location">CONTACT US</h5>
+                                <h5 class="info">(512) 452-2181</h5>
+                            </div>
+                        </div>
                 </div>
-
+                <div class="col-4">
+                    <div class="d-flex flex-column justify-content-between h-100">
+                        <div>
+                            <h3>TIME OUT says <span style="color:#EE1D23">4 out of 5 stars</span></h3>
+                            <p>This joint became legendary when it was featured in the ATX-based movie, Dazed and Confused, and fans continue to flock here for the best corn dogs in Austin. The corn dog is listed as a side and is a bargain at a mere $2.29, but we can’t resist their Top Dog offering as well—an all-meat frank covered in mustard, onions and chili. It’s worth it to try both of them. Top Notch is open seven days a week and offers curbside service as well.</p>
+                            <h5>By: Deborah Hamilton-Lynee</h5>
+                            <h5>Posted: Wednesday July 12 2017</h5>
+                            <a id="order-now" class="btn btn-warning mt-1 mx-0" style="font-size:1.75rem">Order Now</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-
-    </div>
-
-
-
-    <!-- <div id="footer" class="grian black">
-        <div class="container">
-            <h1>Hello</h1>
-            <hr class="spacer" />
-            <hr class="dashed-line" />
-            <hr class="spacer" />
-        </div>
-    </div> -->
-
-
-    <!-- <div id="logo" style="background-image:url(img/logo.png)" class="img-fluid"> </div> -->
-
-    <!-- <div id="" class=" container-fluid" style="padding-top:25px">
         <hr class="spacer" />
         <hr class="dashed-line" />
         <hr class="spacer" />
-    </div> -->
+    </div>
+
+    <div class="grain red" style="height:; z-index:99; position:relative">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center w-100 pt-3">
+                    <i class="bottom-icon fab fa-facebook-square"></i>
+                    <i class="bottom-icon fab fa-twitter-square"></i>
+                    <i class="bottom-icon  fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center">
+                    <h3 class="pt-3">OPEN DAILY</h3>
+                    <h3 class="pt-3">11:00 am - 9:00 pm</h3>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center py-3">
+                    <hr class="new5 w-100">
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center">
+                    <h3 class="pt-3">VISIT OUR OTHER LOCALLY OWNED RESTAURANT:</h3>
+                    <img class="img-fluid ml-3 no-box" src="img/logo-galaxy-cafe.png" style="height:150px"></img>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
 </body>
 
 <script>
-    $('#sign').css('margin-top', "-" + $('#slides').css('height') - $('#slides').css('order') - $('#slides').css('about1'));
+    $('#container-sign').css( 'margin-bottom', "-"+ $('#container-sign').css('height'));
+
+    $( window ).resize(function() {
+      $('#container-sign').css( 'margin-bottom', "-"+ $('#container-sign').css('height'));
+    });
 </script>

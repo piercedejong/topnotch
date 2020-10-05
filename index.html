@@ -24,7 +24,6 @@
 
 <body class="grain yellow">
 
-    <!-- <div class="bg" style="background-image: url(img/bricks3.jpg)"></div> -->
     <div id="main">
         <div id="landing" class="container-fluid pt-3">
             <div class="row">
@@ -35,7 +34,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mr-auto w-100 justify-content-center">
                             <li class="nav-item active">
-                                <a class="nav-link" href="#">Menu <span class="sr-only">(current)</span></a>
+                                <a class="nav-link" href="/topnotch/menu.html">Menu <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="/topnotch/order.html">Order Now</a>
@@ -70,13 +69,25 @@
                 <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:99" />
             </div>
         </div>
-        <div id="sign" style="background-image:url(img/logo.png)" class="stick"> </div>
-        <div class="container-fluid" style="margin-top:-950px">
 
+
+        <div id="container-sign" class="container-fluid sign-container">
+            <div class="row">
+                <div class="col-3">
+                    <img id="sign" src="img/logo.png" class="stick"> </img>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
             <div id="slides" class="row" style="background-image: url(img/bricks.jpg)">
-                <div class="col-3"></div>
-                <div class="col">
-                    <div id="carouselExampleIndicators" class="carousel slide p-5" style="margin-left:50px; margin-right:50px" data-ride="carousel">
+                <div class="col-3">
+
+                </div>
+                <div class="col-lg">
+                    <div id="carouselExampleIndicators" class="carousel slide py-2 px-1" data-ride="carousel">
+                    <!-- <div id="carouselExampleIndicators" class="carousel slide p-5" style="margin-left:50px; margin-right:50px" data-ride="carousel"> -->
                         <ol class="carousel-indicators">
                             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -114,18 +125,17 @@
                 </div>
             </div>
         </div>
-        <!--  -->
 
         <hr class="spacer" />
         <hr class="dashed-line" />
         <hr class="spacer" />
 
-        <div id="order" class="container ">
+        <div id="order" class="container-fluid">
             <div class="row">
                 <div class="col-3"></div>
                 <div class="col-6">
                     <div class="d-flex justify-content-center">
-                        <button id="order-now" class="btn btn-warning btn-lg mr-3">Order Takeout</button>
+                        <a href="/topnotch/order.html" id="order-now" class="btn btn-warning btn-lg mr-3">Order Now</a>
                         <img class="img-fluid ml-3 no-box" src="img/woman_on_phone.png" style="" />
                     </div>
                 </div>
@@ -137,18 +147,35 @@
         <hr class="dashed-line" />
         <hr class="spacer" />
 
-        <div id="about-1" class="container my-5">
+        <div id="about-1" class="container-fluid my-5">
             <div class="row">
                 <div class="col-3"></div>
-                <div class="col-5">
+                <div class="col-6">
+                    <h3 class="text-center">AN UPDATE FROM US TO YOU</h3>
+                    <p >
+                    </p>
+                </div>
+                <div class="col-3"></div>
+            </div>
+        </div>
+
+        <hr class="spacer" />
+        <hr class="dashed-line" />
+        <hr class="spacer" />
+
+        <div id="about-1" class="container-fluid my-5">
+            <div class="row">
+                <div class="col-3"></div>
+                <div class="col-sm-4">
                     <p >
                         Since 1971, we've been grilling up charcoal burgers that some remember calling flame-kissed hamburgers. Our fried chicken also plays an important part of our menu. Locally sourced, fresh and never frozen, we batter and fry
                         each piece to order. Our recipe remains a Stanish family secret dating back to the original owners
                     </p>
                 </div>
-                <div class="col-3">
-                    <img src="img/longhorn.png" style="height:125px"  />
+                <div class="col-sm-2">
+                    <img src="img/longhorn.png" style="width:inherit;"  />
                 </div>
+                <div class="col-3"></div>
             </div>
         </div>
 
@@ -159,15 +186,29 @@
         <div id="map" class="container-fluid my-5">
             <div class="row">
                 <div class="col-3"></div>
-                <div class="col-4">
+                <div class="col-sm-4">
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.9925999670822!2d-97.73578308452306!3d30.35116021097195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbae8730f721%3A0x2e7009226065b229!2sTop%20Notch%20Hamburgers!5e0!3m2!1sen!2sus!4v1596159554472!5m2!1sen!2sus"
-                        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                         height="450" frameborder="0" style="border:0;width:inherit" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
-                <div class="col-3">
-                    <h1 id="location">7525 Burnet Rd. Austin, TX 78757</h1>
-                    <h3 id="dates" style="font-family:title">Open 7 Days a Week</h3>
-                    <h5 id="time">11:00 am to 9:00 pm</h5>
+                <div class="col-sm-5">
+                    <div class="d-flex flex-column justify-content-between h-100 py-5">
+                        <div>
+                            <h5 class="location">ADDRESS</h5>
+                            <h5 class="info">7525 Burnet Rd</h5>
+                            <h5 class="info">Austin, TX 78757</h5>
+                            <a class="info directions"  target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//Top+Notch+Hamburgers,+7525+Burnet+Rd,+Austin,+TX+78757/@30.351504,-97.7327011,16.75z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8644cbae8730f721:0x2e7009226065b229!2m2!1d-97.7335944!2d30.3511556!3e0?hl=en"> Get Directions</a>
+                        </div>
+                        <div>
+                            <h5 class="location">HOURS</h5>
+                            <h5 class="info">Temporary Hours</h5>
+                            <h5 class="info">11:00 am to 9:00 pm</h5>
+                        </div>
+                        <div>
+                            <h5 class="location">CONTACT US</h5>
+                            <h5 class="info">(512) 452-2181</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -178,20 +219,21 @@
 
         <div id="about2" class="container-fluid my-5">
             <div class="row">
-                <div class="col-4"></div>
-                <div class="col-3 align-items-center d-flex">
+                <div class="col-3"></div>
+                <div class="col-sm-4 align-items-center d-flex">
                     <p >
                         We stay true to our iconic roots. The flashing lights on our marquee serves as a landmark to Austinites. Our building is preserved in its retro appearance,dating back to the '70s and complete with carhop service and
                         illuminated menu boxes highlighting customer favorites like hand battered onion rings and milk shakes
                     </p>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-4">
                     <img src="img/about2.jpeg" style="height:300px" class="img-fluid"/>
                 </div>
+                <div class="col-1"></div>
             </div>
         </div>
 
-        <hr class="spacer" />
+        <!-- <hr class="spacer" />
         <hr class="dashed-line" />
         <hr class="spacer" />
 
@@ -209,7 +251,7 @@
                 </div>
                 <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:98" />
             </div>
-        </div>
+        </div> -->
 
         <hr class="spacer" />
         <hr class="dashed-line" />
@@ -218,16 +260,16 @@
         <div id="about3" class="container-fluid my-5">
             <div class="row">
                 <div class="col-3"></div>
-                <div class="col d-flex">
-                    <img src="img/about33.jpg" style="height:300px" class="ml-auto img-fluid"/>
+                <div class="col-sm d-flex">
+                    <img src="img/about33.jpg" style="height:300px" class=" mx-auto img-fluid"/>
                 </div>
-                <div class="col-4 align-items-center d-flex">
+                <div class="col-sm-3 align-items-center d-flex">
                     <p >
                         Most recognizable for our feature spot in the Linklater cult classic film, "Dazed and Confused", we host an annual event April 20th, and play the movie for all the Top Notch fans right outside on our very own movie screen. Most people say it's ALRIGHT, ALRIGHT, ALRIGHT!
                     </p>
                 </div>
-                <div class="col">
-                    <img src="img/about3.jpeg" style="height:300px" class="img-fluid"/>
+                <div class="col-sm d-flex">
+                    <img src="img/about3.jpeg" style="height:300px" class=" mx-auto img-fluid"/>
                 </div>
                 <div class="col-1"></div>
             </div>
@@ -239,15 +281,15 @@
 
         <div id="order" class="container my-5">
             <div class="row">
-                <div class="col"></div>
-                <div class="col-6">
+                <div class="col-3"></div>
+                <div class="col-sm-6">
                     <div class="d-flex justify-content-center">
                         <img class="img-fluid ml-3 no-box" src="img/man-yelling.png" style="height:150px" />
-                        <button id="order-now" class="btn btn-warning btn-lg mr-3">Order Delivery</button>
+                        <a href="/topnotch/order.html" id="order-now" class="btn btn-warning btn-lg mr-3">Order Now</a>
 
                     </div>
                 </div>
-                <div class="col"></div>
+                <div class="col-3"></div>
             </div>
         </div>
 
@@ -255,29 +297,49 @@
         <hr class="dashed-line" />
         <hr class="spacer" />
 
+
     </div>
 
-
-
-    <!-- <div id="footer" class="grian black">
+    <div class="grain red" style="height:; z-index:99; position:relative">
         <div class="container">
-            <h1>Hello</h1>
-            <hr class="spacer" />
-            <hr class="dashed-line" />
-            <hr class="spacer" />
+            <div class="row">
+                <div class="d-flex justify-content-center w-100 pt-3">
+                    <i class="bottom-icon fab fa-facebook-square"></i>
+                    <i class="bottom-icon fab fa-twitter-square"></i>
+                    <i class="bottom-icon  fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center">
+                    <h3 class="pt-3">OPEN DAILY</h3>
+                    <h3 class="pt-3">11:00 am - 9:00 pm</h3>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center py-3">
+                    <hr class="new5 w-100">
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center">
+                    <h3 class="pt-3">VISIT OUR OTHER LOCALLY OWNED RESTAURANT:</h3>
+                    <img class="img-fluid ml-3 no-box" src="img/logo-galaxy-cafe.png" style="height:150px"></img>
+                </div>
+                <div class="col"></div>
+            </div>
         </div>
-    </div> -->
+    </div>
 
-
-    <!-- <div id="logo" style="background-image:url(img/logo.png)" class="img-fluid"> </div> -->
-
-    <!-- <div id="" class=" container-fluid" style="padding-top:25px">
-        <hr class="spacer" />
-        <hr class="dashed-line" />
-        <hr class="spacer" />
-    </div> -->
 </body>
-
 <script>
-    $('#sign').css('margin-top', "-" + $('#slides').css('height') - $('#slides').css('order') - $('#slides').css('about1'));
+    $('#container-sign').css( 'margin-bottom', "-"+ $('#container-sign').css('height'));
+
+    $( window ).resize(function() {
+      $('#container-sign').css( 'margin-bottom', "-"+ $('#container-sign').css('height'));
+    });
 </script>

@@ -47,7 +47,7 @@ p {
 }
 
 .grain {
-    background-image: url(/img/grain.png);
+    background-image: url(/topnotch/img/grain.png);
 }
 
 .black {
@@ -63,7 +63,7 @@ p {
 }
 
 .red {
-    background-color: #CC0000
+    background-color: #EE1D23;
 }
 
 .cream {
@@ -145,4 +145,10 @@ p {
 
 .active {
     color: #005AB1 !important
+}
+
+.bottom-icon{
+    font-size: 4rem;
+    padding: 15px;
+    color:black
 }
