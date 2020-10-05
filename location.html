@@ -86,29 +86,33 @@
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3442.9925999670822!2d-97.73578308452306!3d30.35116021097195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8644cbae8730f721%3A0x2e7009226065b229!2sTop%20Notch%20Hamburgers!5e0!3m2!1sen!2sus!4v1596159554472!5m2!1sen!2sus"
                         height="400" frameborder="0" style="border:0;width:inherit" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                        <div class="d-flex justify-content-between">
-                            <div>
-                                <h5 class="location">ADDRESS</h5>
-                                <h5 class="info">7525 Burnet Rd</h5>
-                                <h5 class="info">Austin, TX 78757</h5>
-                                <a class="info directions"  target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/dir//Top+Notch+Hamburgers,+7525+Burnet+Rd,+Austin,+TX+78757/@30.351504,-97.7327011,16.75z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8644cbae8730f721:0x2e7009226065b229!2m2!1d-97.7335944!2d30.3511556!3e0?hl=en"> Get Directions</a>
-                            </div>
-                            <div>
-                                <h5 class="location">HOURS</h5>
-                                <h5 class="info">Temporary Hours</h5>
-                                <h5 class="info">11:00 am to 9:00 pm</h5>
-                            </div>
-                            <div>
-                                <h5 class="location">CONTACT US</h5>
-                                <h5 class="info">(512) 452-2181</h5>
-                            </div>
+                    <div class="d-flex justify-content-between">
+                        <div>
+                            <h5 class="location">ADDRESS</h5>
+                            <h5 class="info">7525 Burnet Rd</h5>
+                            <h5 class="info">Austin, TX 78757</h5>
+                            <a class="info directions" target="_blank" rel="noopener noreferrer"
+                                href="https://www.google.com/maps/dir//Top+Notch+Hamburgers,+7525+Burnet+Rd,+Austin,+TX+78757/@30.351504,-97.7327011,16.75z/data=!4m9!4m8!1m0!1m5!1m1!1s0x8644cbae8730f721:0x2e7009226065b229!2m2!1d-97.7335944!2d30.3511556!3e0?hl=en">
+                                Get Directions</a>
                         </div>
+                        <div>
+                            <h5 class="location">HOURS</h5>
+                            <h5 class="info">Temporary Hours</h5>
+                            <h5 class="info">11:00 am to 9:00 pm</h5>
+                        </div>
+                        <div>
+                            <h5 class="location">CONTACT US</h5>
+                            <h5 class="info">(512) 452-2181</h5>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-4">
                     <div class="d-flex flex-column justify-content-between h-100">
                         <div>
                             <h3>TIME OUT says <span style="color:#EE1D23">4 out of 5 stars</span></h3>
-                            <p>This joint became legendary when it was featured in the ATX-based movie, Dazed and Confused, and fans continue to flock here for the best corn dogs in Austin. The corn dog is listed as a side and is a bargain at a mere $2.29, but we can’t resist their Top Dog offering as well—an all-meat frank covered in mustard, onions and chili. It’s worth it to try both of them. Top Notch is open seven days a week and offers curbside service as well.</p>
+                            <p>This joint became legendary when it was featured in the ATX-based movie, Dazed and Confused, and fans continue to flock here for the best corn dogs in Austin. The corn dog is listed as a side and is a bargain at a mere
+                                $2.29, but we can’t resist their Top Dog offering as well—an all-meat frank covered in mustard, onions and chili. It’s worth it to try both of them. Top Notch is open seven days a week and offers curbside service as
+                                well.</p>
                             <h5>By: Deborah Hamilton-Lynee</h5>
                             <h5>Posted: Wednesday July 12 2017</h5>
                             <a id="order-now" class="btn btn-warning mt-1 mx-0" style="font-size:1.75rem">Order Now</a>
@@ -157,12 +161,13 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        });
+
+        $(window).resize(function() {
+            $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        });
+    </script>
 </body>
-
-<script>
-    $('#container-sign').css( 'margin-bottom', "-"+ $('#container-sign').css('height'));
-
-    $( window ).resize(function() {
-      $('#container-sign').css( 'margin-bottom', "-"+ $('#container-sign').css('height'));
-    });
-</script>

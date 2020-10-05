@@ -116,11 +116,13 @@
                 </div>
             </div>
         </div>
-</body>
-<script>
-    $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        <script>
+            $(document).ready(function() {
+                $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+            });
 
-    $(window).resize(function() {
-        $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
-    });
-</script>
+            $(window).resize(function() {
+                $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+            });
+        </script>
+    </body>

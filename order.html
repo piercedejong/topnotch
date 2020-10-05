@@ -78,7 +78,7 @@
                 <div class="col"></div>
             </div>
         </div>
-        <div class="container-fluid mt-5" >
+        <div class="container-fluid mt-5">
             <div class="row">
                 <div class="col-4">
                 </div>
@@ -142,12 +142,13 @@
             </div>
         </div>
     </div>
+    <script>
+        $(document).ready(function() {
+            $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        });
 
+        $(window).resize(function() {
+            $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        });
+    </script>
 </body>
-<script>
-    $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
-
-    $(window).resize(function() {
-        $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
-    });
-</script>
