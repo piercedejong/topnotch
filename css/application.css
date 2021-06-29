@@ -1,21 +1,33 @@
 @font-face {
     font-family: title;
-    src: url(/topnotch/fonts/ReklameScript-Regular_DEMO.otf)
+    src: url(/fonts/ReklameScript-Regular_DEMO.otf)
 }
 
 @font-face {
     font-family: sub-title;
-    src: url(/topnotch/fonts/Chunkfive.otf)
+    src: url(/fonts/Market_Deco.ttf)
 }
 
 @font-face {
     font-family: regular;
-    src: url(/topnotch/fonts/MiloOT.otf)
+    src: url(/fonts/MiloOT.otf)
 }
 
 @font-face {
     font-family: lemon;
-    src: url(/topnotch/fonts/LemonJellyPersonalUse-dEqR.ttf)
+    src: url(/fonts/LemonJellyPersonalUse-dEqR.ttf)
+}
+
+@font-face {
+    font-family: order;
+    src: url(/fonts/Marons-Regular.otf)
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
 }
 
 .bg {
@@ -34,12 +46,6 @@ p {
     color: black
 }
 
-.img-fluid {
-    -webkit-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
-    -moz-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
-    box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
-}
-
 .no-box{
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -47,7 +53,7 @@ p {
 }
 
 .grain {
-    background-image: url(/topnotch/img/grain.png);
+    background-image: url(/img/grain.png);
 }
 
 .black {
@@ -143,12 +149,16 @@ p {
     color: white
 }
 
+.sub-title{
+    font-family: sub-title;
+}
+
 .active {
     color: #005AB1 !important
 }
 
 .bottom-icon{
-    font-size: 4rem;
+    font-size: 3rem;
     padding: 15px;
     color:black
 }

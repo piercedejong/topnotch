@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="A walkthrough for a registration script">
+    <meta name="author" content="Pierce de Jong">
+
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <!-- Font IO -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/application.css?v=5">
+    <link rel="stylesheet" type="text/css" href="css/index.css?v=5">
+    <script src="index.js?v=2"></script>
+</head>
+
+<body class="grain yellow">
+
+    <!-- <div class="bg" style="background-image: url(img/bricks3.jpg)"></div> -->
+    <div id="main">
+        <div id="landing" class="container-fluid pt-3">
+            <div class="row">
+                <nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="/menu.html">Menu <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Order Now
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="https://www.grubhub.com/restaurant/top-notch-7525-burnet-rd-austin/342918">Takeout</a>
+                                    <a class="dropdown-item" href="https://eat.chownow.com/discover/restaurant/22613">Delivery</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/location.html">Location</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/story.html">Our Story</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/team.html">Join Our Team</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="/events.html">Events</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Shop
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="#">Merchandise</a>
+                                    <a class="dropdown-item" href="https://squareup.com/gift/ACGP22JRKSF7R/order ">Gift Cards</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="row" style="width:unset; z-index:50">
+                <img class="w-100" src="img/barbedwire3.png" style="margin-bottom:-16px" />
+                <div class="rectangle text-center d-flex align-items-center" style="height:55px; z-index:-1">
+                    <div class="m-auto text-center hook">Austin's Original Hot Rod Hang Out Since 1971</div>
+                </div>
+                <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:99" />
+            </div>
+        </div>
+        <div id="container-sign" class="container-fluid sign-container">
+            <div class="row">
+                <div class="col-3">
+                    <img id="sign" src="img/logo.png" class="stick"> </img>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+        <div class="container-fluid my-5">
+            <div class="row">
+                <div class="col">
+                    <h1 class="text-center" style="font-family:lemon; font-size: 5rem">Join Our Team</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                </div>
+                <div class="col-4">
+                    <h4 class="sub-title">OUR HARDWORKING AND THOUGHTFUL TEAM IS THE BEST THING ABOUT OUR COMPANY. IT TAKES THE DEDICATION OF HUNDREDS TO DO WHAT WE DO.</h4>
+                    <p>Top Notch company culture can be described as team based, where we encourage shared responsibility. Our counter service dining concept provides a fast paced, casual work environment. Employee training is centered around a customer focused service model with an emphasis on menu knowledge. Flexible scheduling offers employees the option to choose shifts that fit their needs and allow for a manageable work-life balance.</p>
+                    <br />
+                    <h4 class="sub-title">WANT TO BE A PART OF OUR TEAM?</h4>
+                    <p>
+                        Download an application below!  Neatly and thoroughly complete the application and drop it off at the Top Notch restaurant.  Applications are accepted between the hours of 2pm and 4pm Monday through Friday. Please dress accordingly.
+                    </p>
+                    <br />
+                    <div class="d-flex">
+                        <a class="sub-title mr-2" href="/links/Application-English-TopNotch.pdf">Top Notch Application</a> (English)
+                        <a class="sub-title mr-2 ml-4" href="/links/Application-Spanish-TopNotch.pdf">Top Notch Application</a> (Spanish)
+                    </div>
+
+                    <div class="f-flex">
+                        <a class="btn btn-danger mr-1" target="_blank" rel="noopener noreferrer" href="/links/Application-English-TopNotch.pdf">
+                          Top Notch Application (English)
+                        </a>
+                        <a class="btn btn-danger ml-1" target="_blank" rel="noopener noreferrer" href="/links/Application-Spanish-TopNotch.pdf">
+                          Top Notch Application (Spanish)
+                        </a>
+                    </div>
+
+
+                </div>
+                <div class="col-3">
+                    <img src="img/employee1.JPG" class="img-fluid img-shadow" alt="Responsive image" style="border-top-left-radius:0.5rem;border-top-right-radius:0.5rem">
+                    <img src="img/employee2.JPG" class="img-fluid img-shadow" alt="Responsive image" style="border-bottom-left-radius:0.5rem;border-bottom-right-radius:0.5rem">
+                </div>
+                <div class="col-1">
+
+                </div>
+            </div>
+        </div>
+
+        <hr class="spacer" />
+        <hr class="dashed-line" />
+        <hr class="spacer" />
+    </div>
+
+    <div class="grain red" style="height:; z-index:99; position:relative">
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-center w-100 pt-3">
+                    <i class="bottom-icon fab fa-facebook-square"></i>
+                    <i class="bottom-icon fab fa-twitter-square"></i>
+                    <i class="bottom-icon  fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center">
+                    <h3 class="sub-title pt-3">OPEN DAILY</h3>
+                    <h3 class="sub-title pt-3">11:00 am - 9:00 pm</h3>
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center py-3">
+                    <hr class="new5 w-100">
+                </div>
+                <div class="col"></div>
+            </div>
+            <div class="row" style="color:black">
+                <div class="col"></div>
+                <div class="col-8 text-center">
+                    <h4 class="pt-3 sub-title">VISIT OUR OTHER LOCALLY OWNED RESTAURANT:</h4>
+                    <img class="img-fluid ml-3 no-box" src="img/Galaxy_newcolor.png" style="height:150px"></img>
+                    <img class="img-fluid ml-3 no-box" src="img/zocalo-logo.png" style="height:150px"></img>
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function() {
+            $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        });
+
+        $(window).resize(function() {
+            $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
+        });
+    </script>
+</body>

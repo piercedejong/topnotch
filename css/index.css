@@ -34,8 +34,8 @@
 }
 
 .nav-item, .nav-link, .navbar-light, .map {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
     font-size: 2rem;
     font-family: sub-title;
     color: #EE1D23 !important
@@ -54,7 +54,7 @@
 }
 
 .info{
-    font-size: 1rem
+    /* font-size: 1rem */
 }
 
 #location{
@@ -85,7 +85,7 @@
 
 .hook {
     color: white;
-    font-size: 30px;
+    font-size: 1.75rem;
     font-family: sub-title;
     text-shadow: 1px 1px black, 2px 2px black;
 }
@@ -106,7 +106,7 @@
     margin: auto 10px;
     background-color: #EE1D23;
     border-color: #EE1D23;
-    font-family: title;
+    font-family: order;
     font-size: 3rem;
     color: white;
     text-shadow: 1px 1px black, 2px 2px black
@@ -136,4 +136,24 @@
 hr.new5 {
   border: 1px solid black;
   border-radius: 5px;
+}
+
+.carousel-item{
+    box-shadow: 9px 11px 50px 2px rgb(0 0 0 / 71%);
+    border-radius: 0.5rem;
+}
+
+.img-main{
+    -webkit-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    border-radius: 0.25rem;
+    height: 300px;
+}
+
+.img-shadow{
+    -webkit-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    -moz-box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    box-shadow: 9px 11px 50px 2px rgba(0, 0, 0, 0.71);
+    border-radius: 0.25rem;
 }
