@@ -4,7 +4,7 @@
     margin-left:auto
 }
 
-#mobiel-logo{
+#mobile-logo{
     height:100px;
     margin-bottom:-75px;
 }
@@ -63,5 +63,10 @@
     }
     .barbwire{
         z-index: 99;
+    }
+    .active{
+        color: black !important;
+        text-shadow: none;
+        text-decoration: underline;
     }
 }
