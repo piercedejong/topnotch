@@ -1,8 +1,13 @@
 .navbar-toggler{
-    color: #CC0000 !important
+    color: #CC0000 !important;
+    margin-bottom:25px;
+    margin-left:auto
 }
 
-
+#mobiel-logo{
+    height:100px;
+    margin-bottom:-75px;
+}
 
 .navbar-nav{
     flex-wrap: wrap

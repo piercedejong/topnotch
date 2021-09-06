@@ -27,16 +27,17 @@
 
 <body class="grain yellow">
 
-    <!-- <div class="bg" style="background-image: url(img/bricks3.jpg)"></div> -->
-    <div id="main">
-        <div id="landing" class="container-fluid pt-3">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div id="header">
+        <div class="container-fluid pt-3">
+            <div id="navigation" class="row">
+                <img id="mobile-logo" class="navbar-brand mx-auto pb-3" src="/img/logo-mobile.png"/>
+                <nav class="navbar navbar-expand-lg navbar-light w-100 pt-0 pb-0 px-0">
+                    <button class="navbar-toggler red" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse grain" id="navbarSupportedContent" >
                         <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                            <div id="navbar-barbwire" class="w-100 barbwire" ></div>
                             <li class="nav-item active">
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -47,9 +48,9 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Order Now
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="https://www.grubhub.com/restaurant/top-notch-7525-burnet-rd-austin/342918">Takeout</a>
-                                    <a class="dropdown-item" href="https://eat.chownow.com/discover/restaurant/22613">Delivery</a>
+                                <div class="dropdown-menu red" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://www.grubhub.com/restaurant/top-notch-7525-burnet-rd-austin/342918">Delivery</a>
+                                    <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://eat.chownow.com/discover/restaurant/22613">Takeout</a>
                                 </div>
                             </li>
                             <li class="nav-item">
@@ -68,23 +69,26 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Shop
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Merchandise</a>
-                                    <a class="dropdown-item" href="https://squareup.com/gift/ACGP22JRKSF7R/order ">Gift Cards</a>
+                                <div class="dropdown-menu red" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="/Merchandise.html">Merchandise</a>
+                                    <a class="dropdown-item" target="_blank" rel="noopener noreferrer" href="https://squareup.com/gift/ACGP22JRKSF7R/order ">Gift Cards</a>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            <div class="row" style="width:unset; z-index:50">
-                <img class="w-100" src="img/barbedwire3.png" style="margin-bottom:-16px" />
-                <div class="rectangle text-center d-flex align-items-center" style="height:55px; z-index:-1">
-                    <div class="m-auto text-center hook">Austin's Original Hot Rod Hang Out Since 1971</div>
+            <div id="hook" class="row">
+                <div class="w-100 barbwire"></div>
+                <div class="rectangle grain text-center d-flex align-items-center red">
+                    <h4 class="m-auto text-center hook">Austin's Original Hot Rod Hang Out Since 1971</h4>
                 </div>
-                <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:99" />
+                <div class="w-100 barbwire"></div>
             </div>
         </div>
+    </div>
+
+    <div id="page">
         <div id="container-sign" class="container-fluid sign-container">
             <div class="row">
                 <div class="col-3">
