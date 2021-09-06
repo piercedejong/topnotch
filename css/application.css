@@ -170,6 +170,33 @@ p {
     text-decoration: none;
 }
 
+.stick {
+    width: 100%;
+    background-repeat: no-repeat;
+    z-index: 5;
+    margin-top: 0px;
+}
+
+.sign-container{
+    margin-bottom: -697px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+#sign-wrapper{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+#sign{
+    position: absolute;
+    z-index: 5;
+    width: 100%
+}
+
 @media all and (max-width: 992px) {
     #container-sign{ display: none}
 }

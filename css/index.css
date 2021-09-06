@@ -1,32 +1,4 @@
-#logo {
-    background-repeat: no-repeat;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    position: fixed;
-    margin-top: 200px;
-    margin-left: 30px;
-}
 
-#sign{
-    margin-top: 0px;
-
-}
-
-.stick {
-    width: 100%;
-    background-repeat: no-repeat;
-    margin-bottom: -250px;
-    z-index: 5;
-}
-
-.sign-container{
-    margin-bottom: -697px;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
 
 .rectangle {
     width: 100%;
