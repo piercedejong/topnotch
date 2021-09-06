@@ -28,6 +28,7 @@
 	.navbar .nav-item:hover .nav-link{ color: #fff;  }
 	.navbar .nav-item:hover .dropdown-menu{ display: block; }
 	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+    #mobile-logo{ display: none}
 }
 
 .bg {
@@ -169,4 +170,12 @@ p {
     font-size: 3rem;
     padding: 15px;
     color:black
+}
+
+.navbar-toggler{
+    color: #CC0000 !important
+}
+
+.navbar-nav{
+    flex-wrap: wrap
 }
