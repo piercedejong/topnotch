@@ -29,8 +29,10 @@
 
 .rectangle {
     width: 100%;
-    height: 10px;
     background-color: #EE1D23;
+    z-index: -1;
+    padding-top: 10px;
+    padding-bottom: 10px
 }
 
 .nav-item, .nav-link, .navbar-light, .map {

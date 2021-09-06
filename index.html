@@ -24,8 +24,8 @@
 
 <body class="grain yellow">
 
-    <div id="main">
-        <div id="landing" class="container-fluid pt-3">
+    <div id="landing">
+        <div class="container-fluid pt-3">
             <div class="row">
                 <nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,20 +73,16 @@
                     </div>
                 </nav>
             </div>
-
-        </div>
-
-        <div id="catch" class="container-fluid">
-            <div class="row" style="width:unset; z-index:50">
-                <img class="w-100" src="img/barbedwire3.png" style="margin-bottom:-10px" />
-                <div class="rectangle text-center d-flex align-items-center" style="height:55px; z-index:-1">
-                    <div class="m-auto text-center hook">Austin's Original Hot Rod Hang Out Since 1971</div>
+            <div class="row">
+                <div class="w-100 barbwire"></div>
+                <div class="rectangle text-center d-flex align-items-center">
+                    <h4 class="m-auto text-center hook">Austin's Original Hot Rod Hang Out Since 1971</h4>
                 </div>
-                <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:99" />
+                <div class="w-100 barbwire"></div>
             </div>
         </div>
-
-
+    </div>
+    <div id="page">
         <div id="container-sign" class="container-fluid sign-container">
             <div class="row">
                 <div class="col-3">
@@ -146,12 +142,12 @@
         </div>
 
         <div id="catch" class="container-fluid mb-5">
-            <div class="row" style="width:unset; z-index:50">
-                <img class="w-100" src="img/barbedwire3.png" style="margin-bottom:-10px;margin-top:-14px" />
-                <div class="rectangle text-center d-flex align-items-center" style="height:55px; z-index:-1">
-                    <div class="m-auto text-center hook">Old School Austin. New School Service</div>
+            <div class="row">
+                <div class="w-100 barbwire"></div>
+                <div class="rectangle text-center d-flex align-items-center" style="z-index:-1">
+                    <h4 class="m-auto text-center hook">Old School Austin. New School Service</h4>
                 </div>
-                <img class="w-100" src="img/barbedwire3.png" style="margin-top:-14px; margin-bottom:-16px; z-index:99" />
+                <div class="w-100 barbwire"></div>
             </div>
         </div>
 
@@ -307,39 +303,42 @@
 
     </div>
 
-    <div class="grain red" style="height:; z-index:99; position:relative">
-        <div class="container">
-            <div class="row">
-                <div class="d-flex justify-content-center w-100 pt-3">
-                    <a class="bottom-icon fab fa-facebook-square" href="https://www.facebook.com/TopNotchDriveIn/"></a>
-                    <a class="bottom-icon  fab fa-instagram" href="https://www.instagram.com/topnotchaustin/?hl=en"></a>
+    <div id="bottom">
+        <div class="grain red" style="height:; z-index:99; position:relative">
+            <div class="container">
+                <div class="row">
+                    <div class="d-flex justify-content-center w-100 pt-3">
+                        <a class="bottom-icon fab fa-facebook-square" href="https://www.facebook.com/TopNotchDriveIn/"></a>
+                        <a class="bottom-icon  fab fa-instagram" href="https://www.instagram.com/topnotchaustin/?hl=en"></a>
+                    </div>
                 </div>
-            </div>
-            <div class="row" style="color:black">
-                <div class="col-sm"></div>
-                <div class="col-sm-8 text-center">
-                    <h4 class="sub-title pt-2">OPEN DAILY</h4>
-                    <h4 class="sub-title pt-2">11:00 am - 9:00 pm</h4>
+                <div class="row" style="color:black">
+                    <div class="col-sm"></div>
+                    <div class="col-sm-8 text-center">
+                        <h4 class="sub-title pt-2">OPEN DAILY</h4>
+                        <h4 class="sub-title pt-2">11:00 am - 9:00 pm</h4>
+                    </div>
+                    <div class="col-sm"></div>
                 </div>
-                <div class="col-sm"></div>
-            </div>
-            <div class="row" style="color:black">
-                <div class="col-sm"></div>
-                <div class="col-sm-8 text-center pt-2">
-                    <hr class="new5 w-100">
+                <div class="row" style="color:black">
+                    <div class="col-sm"></div>
+                    <div class="col-sm-8 text-center pt-2">
+                        <hr class="new5 w-100">
+                    </div>
+                    <div class="col-sm"></div>
                 </div>
-                <div class="col-sm"></div>
-            </div>
-            <div class="row" style="color:black">
-                <div class="col-sm"></div>
-                <div class="col-sm-8 text-center">
-                    <h4 class="pt-3 sub-title">VISIT OUR OTHER LOCALLY OWNED RESTAURANT:</h4>
-                    <img class="img-fluid ml-3 no-box" src="img/galaxy-logo.png" style="height:150px"></img>
-                    <img class="img-fluid ml-3 no-box" src="img/zocalo-logo.png" style="height:150px"></img>
+                <div class="row" style="color:black">
+                    <div class="col-sm"></div>
+                    <div class="col-sm-8 text-center">
+                        <h4 class="pt-3 sub-title">VISIT OUR OTHER LOCALLY OWNED RESTAURANT:</h4>
+                        <img class="img-fluid ml-3 no-box" src="img/galaxy-logo.png" style="height:150px"></img>
+                        <img class="img-fluid ml-3 no-box" src="img/zocalo-logo.png" style="height:150px"></img>
+                    </div>
+                    <div class="col-sm"></div>
                 </div>
-                <div class="col-sm"></div>
             </div>
         </div>
+
     </div>
     <script>
         $(document).ready(function() {

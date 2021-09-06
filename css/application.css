@@ -40,6 +40,14 @@
     position: fixed;
 }
 
+.barbwire{
+    background:url('/img/barbwire.png') repeat-x;
+    width:100%;
+    height:23px;
+    margin-top: -12px;
+    margin-bottom: -12px;
+}
+
 p {
     font-family: regular;
     font-size: 1.25rem;
