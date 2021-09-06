@@ -7,7 +7,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="A walkthrough for a registration script">
     <meta name="author" content="Pierce de Jong">
-
     <!-- Boostrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -15,10 +14,10 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <!-- Font IO -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-
     <!-- My CSS -->
     <link rel="stylesheet" type="text/css" href="css/application.css?v=5">
     <link rel="stylesheet" type="text/css" href="css/index.css?v=5">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css?v=5">
     <script src="index.js?v=2"></script>
 
     <link rel="icon" href="/img/logo-tab.png">
@@ -28,16 +27,17 @@
 
 <body class="grain yellow">
 
-    <div id="landing">
+    <div id="header">
         <div class="container-fluid pt-3">
-            <div class="row">
-                <nav class="navbar navbar-expand-lg navbar-light w-100 py-0">
-                    <img id="mobile-logo" class="navbar-brand mx-auto mb-3" src="/img/logo-mobile.png"/>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div id="navigation" class="row">
+                <img id="mobile-logo" class="navbar-brand mx-auto pb-3" style="height:100px;margin-bottom:-75px" src="/img/logo-mobile.png"/>
+                <nav class="navbar navbar-expand-lg navbar-light w-100 pt-0 pb-0 px-0">
+                    <button class="navbar-toggler red" style="margin-bottom:25px;margin-left:auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse grain" id="navbarSupportedContent" >
                         <ul class="navbar-nav mr-auto w-100 justify-content-center">
+                            <div id="navbar-barbwire" class="w-100 barbwire" ></div>
                             <li class="nav-item active">
                                 <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                             </li>
@@ -48,7 +48,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Order Now
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu red" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="https://www.grubhub.com/restaurant/top-notch-7525-burnet-rd-austin/342918">Delivery</a>
                                     <a class="dropdown-item" href="https://eat.chownow.com/discover/restaurant/22613">Takeout</a>
                                 </div>
@@ -69,7 +69,7 @@
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                     Shop
                                 </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <div class="dropdown-menu red" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="/Merchandise.html">Merchandise</a>
                                     <a class="dropdown-item" href="https://squareup.com/gift/ACGP22JRKSF7R/order ">Gift Cards</a>
                                 </div>
@@ -78,15 +78,16 @@
                     </div>
                 </nav>
             </div>
-            <div class="row">
+            <div id="hook" class="row">
                 <div class="w-100 barbwire"></div>
-                <div class="rectangle text-center d-flex align-items-center">
+                <div class="rectangle grain text-center d-flex align-items-center red">
                     <h4 class="m-auto text-center hook">Austin's Original Hot Rod Hang Out Since 1971</h4>
                 </div>
                 <div class="w-100 barbwire"></div>
             </div>
         </div>
     </div>
+
     <div id="page">
         <div id="container-sign" class="container-fluid sign-container">
             <div class="row">
@@ -97,7 +98,7 @@
             </div>
         </div>
 
-        <div class="container-fluid">
+        <div id="container-slides" class="container-fluid">
             <div id="slides" class="row" style="background-image: url(img/index/brick.jpeg)">
                 <div class="col-3 my-2">
 
@@ -149,7 +150,7 @@
         <div id="catch" class="container-fluid mb-5">
             <div class="row">
                 <div class="w-100 barbwire"></div>
-                <div class="rectangle text-center d-flex align-items-center" style="z-index:-1">
+                <div class="rectangle red text-center d-flex align-items-center" style="z-index:-1">
                     <h4 class="m-auto text-center hook">Old School Austin. New School Service</h4>
                 </div>
                 <div class="w-100 barbwire"></div>
@@ -160,12 +161,12 @@
         <hr class="dashed-line" />
         <hr class="spacer" />
 
-        <div id="order" class="container-fluid my-5">
+        <div id="order-now-1" class="container-fluid my-5">
             <div class="row">
                 <div class="col-sm-3"></div>
                 <div class="col-sm-6">
                     <h4 class="text-center" style="font-family: sub-title">Order online for pick-up or have us deliver!</h4>
-                    <div class="d-flex justify-content-center pt-2">
+                    <div class="d-flex flex-wrap justify-content-center pt-2">
                         <a href="/order.html" id="order-now" class="btn btn-warning btn-lg mr-3">Order Online Now!</a>
                         <img class="img-fluid ml-3 no-box" src="img/index/woman_on_phone.png" style="" />
                     </div>
@@ -173,6 +174,7 @@
                 <div class="col-sm-3"></div>
             </div>
         </div>
+
         <hr class="spacer" />
         <hr class="dashed-line" />
         <hr class="spacer" />
@@ -185,10 +187,10 @@
                         Most recognizable for our feature spot in the Linklater cult classic film, "Dazed and Confused", we host an annual event April 20th, and play the movie for all the Top Notch fans right outside on our very own movie screen. Most people say it's ALRIGHT, ALRIGHT, ALRIGHT!
                     </p>
                 </div>
-                <div class="col-sm-2">
+                <div class="col-sm-4 col-about-img">
                     <img src="img/index/about1.png"class="img-fluid img-main" />
                 </div>
-                <div class="col-sm-3"></div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
 
@@ -205,8 +207,8 @@
                         height="450" frameborder="0" style="border:0;width:inherit" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="col-sm-5">
-                    <div class="d-flex flex-column justify-content-between h-100 py-5">
-                        <div>
+                    <div class="d-flex flex-column justify-content-between h-100">
+                        <div class="my-3">
                             <h4 class="sub-title">ADDRESS</h4>
                             <h5 class="sub-title">7525 Burnet Rd</h5>
                             <h5 class="sub-title">Austin, TX 78757</h5>
@@ -214,11 +216,11 @@
                               Get Directions
                             </a>
                         </div>
-                        <div>
+                        <div class="my-3">
                             <h4 class="sub-title">HOURS</h4>
                             <h5 class="sub-title">11:00 am to 9:00 pm</h5>
                         </div>
-                        <div>
+                        <div class="my-3">
                             <h4 class="sub-title">CONTACT US</h4>
                             <a class="sub-title " href="tel:5554280940">(512) 452-2181</a>
                         </div>
@@ -239,7 +241,7 @@
                         Since 1971, we've been grilling up charcoal burgers that some remember calling flame-kissed hamburgers. Our fried chicken also plays an important part of our menu. Locally sourced, fresh and never frozen, we batter and fry each piece to order. Our recipe remains a Stanish family secret dating back to the original owners.
                     </p>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4 col-about-img">
                     <img src="img/index/about2.png" class="img-fluid img-main" />
                 </div>
                 <div class="col-sm-1"></div>
@@ -273,15 +275,15 @@
         <div id="about3" class="container-fluid my-5">
             <div class="row">
                 <div class="col-sm-3"></div>
-                <div class="col-sm-3 d-flex">
+                <div class="col-sm-4 col-about-img">
                     <img src="img/index/about3.png"class="img-fluid img-main" />
                 </div>
                 <div class="col-sm-4 align-items-center d-flex">
-                    <p>
+                    <p id="about3-text">
                         We stay true to our iconic roots. The flashing lights on our marquee serves as a landmark to Austinites.  Our building is preserved in its retro appearance,dating back to the '70s and complete with carhop service and illuminated menu boxes highlighting customer favorites like hand battered onion rings and milk shakes.
                     </p>
                 </div>
-                <div class="col-sm-2"></div>
+                <div class="col-sm-1"></div>
             </div>
         </div>
 
@@ -289,10 +291,10 @@
         <hr class="dashed-line" />
         <hr class="spacer" />
 
-        <div id="order" class="container my-5">
+        <div id="order-now-2" class="container my-5">
             <div class="row">
                 <div class="col">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex flex-wrap justify-content-center">
                         <img class="img-fluid ml-3 no-box" src="img/index/man-yelling.png" style="height:150px" />
                         <a href="/order.html" id="order-now" class="btn btn-warning btn-lg mr-3">Order Online Now!</a>
 
@@ -308,16 +310,16 @@
 
     </div>
 
-    <div id="bottom">
-        <div class="grain red" style="height:; z-index:99; position:relative">
-            <div class="container">
+    <div id="footer" >
+        <div class="grain red" style="z-index:99; position:relative">
+            <div class="container pb-3 pt-3" style="color:black;">
                 <div class="row">
-                    <div class="d-flex justify-content-center w-100 pt-3">
+                    <div class="d-flex justify-content-center w-100">
                         <a class="bottom-icon fab fa-facebook-square" href="https://www.facebook.com/TopNotchDriveIn/"></a>
                         <a class="bottom-icon  fab fa-instagram" href="https://www.instagram.com/topnotchaustin/?hl=en"></a>
                     </div>
                 </div>
-                <div class="row" style="color:black">
+                <div class="row" >
                     <div class="col-sm"></div>
                     <div class="col-sm-8 text-center">
                         <h4 class="sub-title pt-2">OPEN DAILY</h4>
@@ -325,19 +327,19 @@
                     </div>
                     <div class="col-sm"></div>
                 </div>
-                <div class="row" style="color:black">
+                <div class="row" >
                     <div class="col-sm"></div>
                     <div class="col-sm-8 text-center pt-2">
                         <hr class="new5 w-100">
                     </div>
                     <div class="col-sm"></div>
                 </div>
-                <div class="row" style="color:black">
+                <div class="row" >
                     <div class="col-sm"></div>
                     <div class="col-sm-8 text-center">
                         <h4 class="pt-3 sub-title">VISIT OUR OTHER LOCALLY OWNED RESTAURANT:</h4>
-                        <img class="img-fluid ml-3 no-box" src="img/galaxy-logo.png" style="height:150px"></img>
-                        <img class="img-fluid ml-3 no-box" src="img/zocalo-logo.png" style="height:150px"></img>
+                        <img class="img-fluid mx-3 no-box mt-2" src="img/galaxy-cafe-logo.png" style="height:150px"></img>
+                        <img class="img-fluid mx-3 no-box mt-2" src="img/zocalo-cafe-logo.png" style="height:150px"></img>
                     </div>
                     <div class="col-sm"></div>
                 </div>
@@ -345,6 +347,7 @@
         </div>
 
     </div>
+
     <script>
         $(document).ready(function() {
             $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));

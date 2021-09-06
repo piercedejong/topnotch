@@ -10,7 +10,8 @@
 }
 
 #sign{
-    margin-top: 0px
+    margin-top: 0px;
+
 }
 
 .stick {
@@ -29,22 +30,9 @@
 
 .rectangle {
     width: 100%;
-    background-color: #EE1D23;
     z-index: -1;
     padding-top: 10px;
     padding-bottom: 10px
-}
-
-.nav-item, .nav-link, .navbar-light, .map {
-    padding-left: 0.25rem;
-    padding-right: 0.25rem;
-    font-size: 2rem;
-    font-family: sub-title;
-    color: #EE1D23 !important
-}
-
-.nav-item:hover, .nav-link:hover {
-    color: black !important
 }
 
 .location{
@@ -119,6 +107,18 @@
     background-color: #cc0000;
     border-color: #cc0000;
 }
+
+@media all and (max-width: 992px) {
+    .col-about-img{
+        text-align: center
+    }
+
+    #about3-text{
+        margin-top: 15px
+    }
+}
+
+
 
 .map-container-2 {
     overflow: hidden;

@@ -23,14 +23,6 @@
     src: url(/fonts/Marons-Regular.otf)
 }
 
-@media all and (min-width: 992px) {
-	.navbar .nav-item .dropdown-menu{ display: none; }
-	.navbar .nav-item:hover .nav-link{ color: #fff;  }
-	.navbar .nav-item:hover .dropdown-menu{ display: block; }
-	.navbar .nav-item .dropdown-menu{ margin-top:0; }
-    #mobile-logo{ display: none}
-}
-
 .bg {
     background-size: cover;
     background-repeat: no-repeat;
@@ -47,6 +39,7 @@
     height:23px;
     margin-top: -12px;
     margin-bottom: -12px;
+    z-index: 99;
 }
 
 p {
@@ -172,10 +165,6 @@ p {
     color:black
 }
 
-.navbar-toggler{
-    color: #CC0000 !important
-}
-
-.navbar-nav{
-    flex-wrap: wrap
+@media all and (max-width: 992px) {
+    #container-sign{ display: none}
 }
