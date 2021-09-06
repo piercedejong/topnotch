@@ -30,7 +30,15 @@
 }
 
 .nav-item:hover, .nav-link:hover {
-    color: black !important
+    color: black !important;
+    text-decoration: underline;
+    text-shadow:none;
+}
+
+.active{
+    color: white !important;
+    text-shadow: 1px 1px black, 2px 2px black;
+    text-decoration: underline;
 }
 
 @media all and (min-width: 992px) {
@@ -45,7 +53,6 @@
 @media all and (max-width: 992px) {
     .navbar-collapse{
         background-color: #EE1D23;
-        font-family: sub-title;
         text-shadow: 1px 1px black, 2px 2px black;
     }
     .nav-link{color: white !important;}
