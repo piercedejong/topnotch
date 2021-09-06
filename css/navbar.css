@@ -49,4 +49,7 @@
         color: black !important;
         text-shadow: none;
     }
+    .barbwire{
+        z-index: 99;
+    }
 }
