@@ -62,22 +62,23 @@
     margin: 0px 10px
 }
 
-#order-now {
+.order-now {
     height: fit-content;
     margin: auto 10px;
     background-color: #EE1D23;
     border-color: #EE1D23;
     font-family: order;
     font-size: 2rem;
-    color: white;
+    color: white !important;
     text-shadow: 1px 1px black, 2px 2px black
 }
 
-#order-now:hover {
+.order-now:hover {
     height: fit-content;
     margin: auto 10px;
     background-color: #cc0000;
     border-color: #cc0000;
+    color: white !important;
 }
 
 @media all and (max-width: 992px) {
