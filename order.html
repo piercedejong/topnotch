@@ -105,13 +105,14 @@
                 </div>
                 <div class="col-3 text-center d-flex flex-column align-items-center">
                     <div class="my-5">
-                        <a id="order-now" class="btn btn-warning btn-lg mr-3" href="https://eat.chownow.com/discover/restaurant/22613">Order Online</a>
+                        <a id="order-now" class="btn btn-warning btn-lg mr-3 order-now" href="https://eat.chownow.com/discover/restaurant/22613" target="_blank">Order Online</a>
                         <h4 class="mt-2 sub-title">Original Location</h4>
                         <h5 class=" sub-title">Burnet Road</h5>
                     </div>
 
                     <div class="my-5">
-                        <a id="order-now" class="btn btn-warning btn-lg mr-3" href="/order" disabled>Coming Soon!</a>
+                      <a id="order-now" class="chownow-order-online btn btn-warning btn-lg mr-3 order-now" href="https://order.chownow.com/order/15945/locations/56812" target="_blank">Order Online</a>
+                        <!-- <a id="order-now" class="btn btn-warning btn-lg mr-3" href="/order" disabled>Coming Soon!</a> -->
                         <h4 class="mt-2 sub-title">Hutto Location</h4>
                         <a class="mt-2 sub-title text-black h5" style="color:black!important" href="/hutto">Visit us in person in the meantime!</a>
                     </div>
@@ -169,7 +170,9 @@
             </div>
         </div>
     </div>
-
+    <script
+      src="https://cf.chownowcdn.com/latest/static/integrations/ordering-modal.min.js" data-chownow-company-id="15945">
+    </script>
     <script>
         $(document).ready(function() {
             $('#container-sign').css('margin-bottom', "-" + $('#container-sign').css('height'));
